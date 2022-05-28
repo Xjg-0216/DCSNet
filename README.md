@@ -20,7 +20,7 @@ It shows that the network structure is focused on the various elements of the sn
 
 * ***T*** : the number of stages of PRM
 
-* ***n*** : the number of stages of CAB
+* ***n*** : the number of  CAB
 
 |&nbsp;&nbsp;&nbsp;&nbsp;T&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;PSNR&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;SSIM&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;GFLOPs&nbsp;&nbsp;&nbsp;&nbsp;|
 | :--: | :---: | :--: | :----: |
