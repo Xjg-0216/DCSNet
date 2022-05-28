@@ -4,7 +4,7 @@
 
 **This repo is an implementation of PyTorch version.**
 
-<img src="./figures/plot.png" style="zoom: 67%;" />
+<img src="./figures/plot.png"  />
 
 Image desnowing on the CSD dataset. Under different parameter capacities(x-axis), our approach performs better than other methods, as well as the stat-of-the-art(PSNR on y-axis)
 
@@ -22,18 +22,18 @@ It shows that the network structure is focused on the various elements of the sn
 
 * ***n*** : the number of stages of CAB
 
-|  T   | PSNR  | SSIM | GFLOPs |
+|&nbsp;&nbsp;T&nbsp;&nbsp;|&nbsp;&nbsp;PSNR&nbsp;&nbsp;|&nbsp;&nbsp;SSIM&nbsp;&nbsp;|&nbsp;&nbsp;GFLOPs&nbsp;&nbsp;|
 | :--: | :---: | :--: | :----: |
-|  1   |       |      |  62.2  |
-|  2   |       |      |  72.8  |
-|  3   | 36.14 | 0.98 |  83.4  |
-|  4   |       |      |  94.0  |
+|&nbsp;&nbsp;1&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;62.2&nbsp;&nbsp;|
+|&nbsp;&nbsp;2&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;72.8&nbsp;&nbsp;|
+|&nbsp;&nbsp;3&nbsp;&nbsp;|&nbsp;&nbsp;36.14&nbsp;&nbsp;|&nbsp;&nbsp;0.98&nbsp;&nbsp;|&nbsp;&nbsp;83.4&nbsp;&nbsp;|
+|&nbsp;&nbsp;4&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;94.0&nbsp;&nbsp;|
 
-|  n   | PSNR  | SSIM | GFLOPs |
+|&nbsp;&nbsp;n&nbsp;&nbsp;|&nbsp;&nbsp;PSNR&nbsp;&nbsp;|&nbsp;&nbsp;SSIM&nbsp;&nbsp;|&nbsp;&nbsp;GFLOPs&nbsp;&nbsp;|
 | :--: | :---: | :--: | :----: |
-|  2   |       |      |  75.7  |
-|  4   | 36.14 | 0.98 |  83.4  |
-|  6   |       |      |  91.1  |
+|&nbsp;&nbsp;2&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; &nbsp;|&nbsp;&nbsp;75.7&nbsp;&nbsp;|
+|&nbsp;&nbsp;4&nbsp;&nbsp;|&nbsp;&nbsp;36.14&nbsp;&nbsp;| &nbsp;&nbsp;0.98&nbsp;&nbsp;|&nbsp;&nbsp;83.4&nbsp;&nbsp;|
+|&nbsp;&nbsp;6&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;91.1&nbsp;&nbsp;|
 
 
 
