@@ -22,18 +22,18 @@ It shows that the network structure is focused on the various elements of the sn
 
 * ***n*** : the number of stages of CAB
 
-|&nbsp;&nbsp;T&nbsp;&nbsp;|&nbsp;&nbsp;PSNR&nbsp;&nbsp;|&nbsp;&nbsp;SSIM&nbsp;&nbsp;|&nbsp;&nbsp;GFLOPs&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;T&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;PSNR&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;SSIM&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;GFLOPs&nbsp;&nbsp;&nbsp;&nbsp;|
 | :--: | :---: | :--: | :----: |
-|&nbsp;&nbsp;1&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;62.2&nbsp;&nbsp;|
-|&nbsp;&nbsp;2&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;72.8&nbsp;&nbsp;|
-|&nbsp;&nbsp;3&nbsp;&nbsp;|&nbsp;&nbsp;36.14&nbsp;&nbsp;|&nbsp;&nbsp;0.98&nbsp;&nbsp;|&nbsp;&nbsp;83.4&nbsp;&nbsp;|
-|&nbsp;&nbsp;4&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;94.0&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;62.2&nbsp;&nbsp;&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;72.8&nbsp;&nbsp;&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;36.14&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;0.98&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;83.4&nbsp;&nbsp;&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;94.0&nbsp;&nbsp;&nbsp;&nbsp;|
 
-|&nbsp;&nbsp;n&nbsp;&nbsp;|&nbsp;&nbsp;PSNR&nbsp;&nbsp;|&nbsp;&nbsp;SSIM&nbsp;&nbsp;|&nbsp;&nbsp;GFLOPs&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;n&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;PSNR&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;SSIM&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;GFLOPs&nbsp;&nbsp;&nbsp;&nbsp;|
 | :--: | :---: | :--: | :----: |
-|&nbsp;&nbsp;2&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; &nbsp;|&nbsp;&nbsp;75.7&nbsp;&nbsp;|
-|&nbsp;&nbsp;4&nbsp;&nbsp;|&nbsp;&nbsp;36.14&nbsp;&nbsp;| &nbsp;&nbsp;0.98&nbsp;&nbsp;|&nbsp;&nbsp;83.4&nbsp;&nbsp;|
-|&nbsp;&nbsp;6&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;91.1&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;75.7&nbsp;&nbsp;&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;36.14&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;0.98&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;83.4&nbsp;&nbsp;&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;91.1&nbsp;&nbsp;&nbsp;&nbsp;|
 
 
 
