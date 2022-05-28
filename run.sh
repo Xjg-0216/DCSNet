@@ -1,0 +1,1 @@
+python -m torch.distributed.launch --nproc_per_node=2 --master_port=88888 /data/20120017/20120017/DCSNet-main/basicsr/train_snow.py -opt /data/20120017/20120017/DCSNet-main/options/train/CSD/DCSNet.yml --launcher pytorch

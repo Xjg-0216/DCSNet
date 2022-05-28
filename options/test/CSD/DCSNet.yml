@@ -1,0 +1,55 @@
+
+# Modified from BasicSR (https://github.com/xinntao/BasicSR)
+# Copyright 2018-2020 BasicSR Authors
+# ------------------------------------------------------------------------
+# general settings
+name: DCSNet
+model_type: ImageRestorationModel
+scale: 1
+num_gpu: 1 # set num_gpu: 0 for cpu mode
+manual_seed: 10
+
+# dataset and data loader settings
+datasets:
+
+  test:
+    name: CSD
+    type: PairedImageDataset
+
+    dataroot_gt: /data/20120017/20120017/DCSNet-main/datasets/CSD/test/CSD2000/target
+    dataroot_lq: /data/20120017/20120017/DCSNet-main/datasets/CSD/test/CSD2000/input
+
+    io_backend:
+      type: disk
+
+# network structures
+network_g:
+  type: DCSNet
+
+
+# path
+path:
+  pretrain_network_g: /data/20120017/20120017/DCSNet-main/experiments/CSD/models/net_g_400000.pth
+  strict_load_g: true
+  resume_state: ~
+
+# validation settings
+val:
+  save_img: false
+  grids: true
+  crop_size: 256
+
+  metrics:
+    psnr: # metric name, can be arbitrary
+      type: calculate_psnr
+      crop_border: 0
+      test_y_channel: true
+    ssim:
+      type: calculate_ssim
+      crop_border: 0
+      test_y_channel: true
+
+# dist training settings
+dist_params:
+  backend: nccl
+  port: 29500

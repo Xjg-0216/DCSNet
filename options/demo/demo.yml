@@ -1,0 +1,41 @@
+# ------------------------------------------------------------------------
+# Copyright (c) 2021 megvii-model. All Rights Reserved.
+# ------------------------------------------------------------------------
+# Modified from BasicSR (https://github.com/xinntao/BasicSR)
+# Copyright 2018-2020 BasicSR Authors
+# ------------------------------------------------------------------------
+# general settings
+name: demo
+#model_type: ImageRestorationModel
+model_type: ImageRestorationModel
+scale: 1
+num_gpu: 1 # set num_gpu: 0 for cpu mode
+manual_seed: 10
+
+# single image inference and save image
+img_path:
+
+  input_img: /data/20120017/20120017/DCSNet-main/demo/1.tif
+  output_img: /data/20120017/20120017/DCSNet-main/demo/demo1_1.tif
+
+# network structures
+network_g:
+  type: DCSNet
+
+# path
+path:
+
+  pretrain_network_g: /data/20120017/20120017/DCSNet-main/experiments/CSD-restore-dirt-rain/models/net_g_400000.pth
+
+  strict_load_g: true
+  resume_state: ~
+
+# validation settings
+val:
+  grids: true
+  crop_size: 256
+
+# dist training settings
+dist_params:
+  backend: nccl
+  port: 29500
