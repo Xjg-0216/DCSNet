@@ -77,11 +77,9 @@ python setup.py develop --no_cuda_ext
 
      
 
-### Image Restoration Tasks
+### Image Desnow Tasks
 
 ---
-
-Image desnow.
 
 Image Desnow - CSD dataset 
 
