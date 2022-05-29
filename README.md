@@ -44,7 +44,7 @@ The following experiments take the model trained on the CSD dataset as the basel
 | dataset  | direct transfer | fine-tuning | retrain |
 | :------: | :-------------: | :---------: | :-----: |
 |   SRRS   |      30.29      |    30.94    |  31.25  |
-| Snow100K |      26.80      |             |  33.64  |
+| Snow100K |      26.80      |    32.89    |  33.64  |
 
 
 
