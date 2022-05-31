@@ -6,26 +6,26 @@
 
 <img src="./figures/plot.png"  />
 
-Image desnowing on the CSD dataset. Under different parameter capacities(x-axis), our approach performs better than other methods, as well as the stat-of-the-art(PSNR on y-axis)
+Image desnowing on the CSD dataset. Under different parameter capacities(x-axis), **our approach performs better than other methods, as well as the stat-of-the-art(PSNR on y-axis)**
 
 
 
 ### Feature maps display of AFFP module:
 
-![feature map](./figures/total1.png)
+![feature map](./figures/total_feature_map.png)
 
-It shows that the network structure is focused on the various elements of the snowflake.
+The feature map of AFFP helps us better explain its role. Specifically, Level 1 exhibits that its ability in capturing small-scale snow elements and additional high-frequency information, and Level 3 demonstrates it is capturing large-scale snow elements and strong semantic information. **By utilizing various receptive fields, our proposed AFFP can focus on snowflake elements more precisely**.
 
 ### The ablation experiments of the PRM module on hyperarameters are follows:
 
-* ***T*** : the number of stages of PRM
+* ***T*** : the number of stages of `PRM`
 
-* ***n*** : the number of  CAB
+* ***n*** : the number of  `CAB`
 
 | &nbsp;&nbsp;&nbsp;&nbsp;T&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;PSNR&nbsp;&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;&nbsp;SSIM&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;GFLOPs&nbsp;&nbsp;&nbsp;&nbsp; |
 | :-----------------------------------------------: | :---------------------------------------------------: | :--------------------------------------------------: | :----------------------------------------------------: |
 | &nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;34.25&nbsp;&nbsp;&nbsp;&nbsp; |   &nbsp;&nbsp;&nbsp;&nbsp;0.96&nbsp;&nbsp;&nbsp;&nbsp;   |  &nbsp;&nbsp;&nbsp;&nbsp;62.2&nbsp;&nbsp;&nbsp;&nbsp;  |
-| &nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp; |   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    |   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   |  &nbsp;&nbsp;&nbsp;&nbsp;72.8&nbsp;&nbsp;&nbsp;&nbsp;  |
+| &nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp; |   &nbsp;&nbsp;&nbsp;&nbsp;35.03&nbsp;&nbsp;&nbsp;&nbsp;|   &nbsp;&nbsp;&nbsp;&nbsp;0.98&nbsp;&nbsp;&nbsp;&nbsp;   |  &nbsp;&nbsp;&nbsp;&nbsp;72.8&nbsp;&nbsp;&nbsp;&nbsp;  |
 | &nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;36.14&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;0.98&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;83.4&nbsp;&nbsp;&nbsp;&nbsp;  |
 | &nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp; |   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    |   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   |  &nbsp;&nbsp;&nbsp;&nbsp;94.0&nbsp;&nbsp;&nbsp;&nbsp;  |
 
