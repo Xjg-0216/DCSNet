@@ -4,7 +4,7 @@
 
 **This repo is an implementation of PyTorch version.**
 
-<img src="./figures/plot.png"  />
+<p><img src="./figures/plot.png" align="middle" /></1p>
 
 Image desnowing on the CSD dataset. Under different parameter capacities(x-axis), **our approach performs better than other methods, as well as the stat-of-the-art(PSNR on y-axis)**
 
@@ -12,7 +12,7 @@ Image desnowing on the CSD dataset. Under different parameter capacities(x-axis)
 
 ### Feature maps display of AFFP module:
 
-![feature map](./figures/total_feature_map.png)
+<p><img src="./figures/total_feature_map.png" align="middle" /></1p>
 
 The feature map of AFFP helps us better explain its role. Specifically, Level 1 exhibits that its ability in capturing small-scale snow elements and additional high-frequency information, and Level 3 demonstrates it is capturing large-scale snow elements and strong semantic information. **By utilizing various receptive fields, our proposed AFFP can focus on snowflake elements more precisely**.
 
